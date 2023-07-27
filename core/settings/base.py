@@ -48,8 +48,7 @@ DJANGO_APPS = [
 CUSTOM_APPS = [
     "apps.common",
     "apps.article",
-    "apps.advertisement",
-    "apps.staff"
+    "apps.staff",
 ]
 
 THIRD_PARTY_APPS = [
@@ -59,7 +58,7 @@ THIRD_PARTY_APPS = [
     "phone_field",
     "ckeditor",
     "modeltranslation",
-    "django_filters"
+    "django_filters",
 ]
 
 REST_FRAMEWORK = {
@@ -112,9 +111,9 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 DATABASES = {
     "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",
-        }
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
+    }
 }
 
 # Password validation
